@@ -2,7 +2,7 @@ Summary:	yconsole - monitors & controls the Y sound server
 Summary(pl):	yconsole - monitorowanie i sterowanie serwerem d¼wiêku Y
 Name:		yconsole
 Version:	3.0.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 	PREFIX=$RPM_BUILD_ROOT%{_prefix} \
 	MAN_DIR=$RPM_BUILD_ROOT%{_mandir}/man1 \
 	ICONS_DIR=$RPM_BUILD_ROOT%{_pixmapsdir}
+
+# conflicts with yplayer, but may be useful for some desktop in future...
+rm -f $RPM_BUILD_ROOT%{_pixmapsdir}/yplayer.xpm
 
 bzip2 -d $RPM_BUILD_ROOT%{_mandir}/man1/*.bz2
 

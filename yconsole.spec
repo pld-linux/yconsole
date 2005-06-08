@@ -10,6 +10,7 @@ Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
 URL:		http://wolfpack.twu.net/YIFF/
 BuildRequires:	gtk+-devel >= 1.2.10
 BuildRequires:	imlib-devel
+BuildRequires:	libstdc++-devel
 BuildRequires:	yiff-devel >= 2.14
 Requires:	gtk+ >= 1.2.10
 Requires:	yiff-lib >= 2.14

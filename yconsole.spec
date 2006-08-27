@@ -1,12 +1,12 @@
 Summary:	yconsole - monitors & controls the Y sound server
 Summary(pl):	yconsole - monitorowanie i sterowanie serwerem d¼wiêku Y
 Name:		yconsole
-Version:	3.4.1
+Version:	3.4.3
 Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
-# Source0-md5:	5f46d4c88979a2e3af42362a4f3db38a
+# Source0-md5:	5977475b351509109c4937964ca5e9de
 URL:		http://wolfpack.twu.net/YIFF/
 BuildRequires:	gtk+-devel >= 1.2.10
 BuildRequires:	imlib-devel

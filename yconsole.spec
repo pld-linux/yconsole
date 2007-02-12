@@ -1,5 +1,5 @@
 Summary:	yconsole - monitors & controls the Y sound server
-Summary(pl.UTF-8):   yconsole - monitorowanie i sterowanie serwerem dźwięku Y
+Summary(pl.UTF-8):	yconsole - monitorowanie i sterowanie serwerem dźwięku Y
 Name:		yconsole
 Version:	3.4.3
 Release:	1

@@ -1,5 +1,5 @@
 Summary:	yconsole - monitors & controls the Y sound server
-Summary(pl):	yconsole - monitorowanie i sterowanie serwerem d¼wiêku Y
+Summary(pl.UTF-8):   yconsole - monitorowanie i sterowanie serwerem dÅºwiÄ™ku Y
 Name:		yconsole
 Version:	3.4.3
 Release:	1
@@ -21,10 +21,10 @@ YConsole monitors the status of the Y sound server and allows
 modification of its Audio and Mixer values. It also features yplayer
 which allows you to play sound objects and audio CDs.
 
-%description -l pl
-YConsole monitoruje stan serwera d¼wiêku Y i pozwala na modyfikowanie
-jego warto¶ci d¼wiêku i miksera. Ma tak¿e yplayer, który pozwala
-odtwarzaæ obiekty d¼wiêkowe i p³yty CD-Audio.
+%description -l pl.UTF-8
+YConsole monitoruje stan serwera dÅºwiÄ™ku Y i pozwala na modyfikowanie
+jego wartoÅ›ci dÅºwiÄ™ku i miksera. Ma takÅ¼e yplayer, ktÃ³ry pozwala
+odtwarzaÄ‡ obiekty dÅºwiÄ™kowe i pÅ‚yty CD-Audio.
 
 %prep
 %setup -q

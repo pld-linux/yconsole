@@ -1,13 +1,13 @@
 Summary:	yconsole - monitors & controls the Y sound server
 Summary(pl.UTF-8):	yconsole - monitorowanie i sterowanie serwerem dźwięku Y
 Name:		yconsole
-Version:	3.4.3
+Version:	3.4.6
 Release:	1
-License:	GPL
+License:	GPL-like
 Group:		Applications/Sound
-Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
-# Source0-md5:	5977475b351509109c4937964ca5e9de
-URL:		http://wolfpack.twu.net/YIFF/
+Source0:	http://wolfsinger.com/~wolfpack/packages/%{name}-%{version}.tar.bz2
+# Source0-md5:	923ddfedd38efa41a408d93ee6bd78ac
+URL:		http://freecode.com/projects/yconsole
 BuildRequires:	gtk+-devel >= 1.2.10
 BuildRequires:	imlib-devel
 BuildRequires:	libstdc++-devel
@@ -44,7 +44,7 @@ rm -rf $RPM_BUILD_ROOT
 	ICONS_DIR=$RPM_BUILD_ROOT%{_pixmapsdir}
 
 # conflicts with yplayer, but may be useful for some desktop in future...
-rm -f $RPM_BUILD_ROOT%{_pixmapsdir}/yplayer.xpm
+%{__rm} $RPM_BUILD_ROOT%{_pixmapsdir}/yplayer.xpm
 
 bzip2 -d $RPM_BUILD_ROOT%{_mandir}/man1/*.bz2
 
@@ -53,8 +53,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS LICENSE README
+%doc LICENSE README
 %attr(755,root,root) %{_bindir}/yconsole
 %{_datadir}/yconsole
-%{_pixmapsdir}/*.xpm
+%{_pixmapsdir}/yconsole.xpm
+%{_pixmapsdir}/ymidi.xpm
+%{_pixmapsdir}/ymixer.xpm
 %{_mandir}/man1/yconsole.1*

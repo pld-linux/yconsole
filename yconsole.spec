@@ -2,7 +2,7 @@ Summary:	yconsole - monitors & controls the Y sound server
 Summary(pl.UTF-8):	yconsole - monitorowanie i sterowanie serwerem dźwięku Y
 Name:		yconsole
 Version:	3.4.6
-Release:	1
+Release:	2
 License:	GPL-like
 Group:		Applications/Sound
 Source0:	http://wolfsinger.com/~wolfpack/packages/%{name}-%{version}.tar.bz2
